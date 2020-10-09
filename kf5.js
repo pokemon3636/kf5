@@ -4,7 +4,7 @@ window.onload = function () {
 		if ($('.user-info-name [href]').length > 0) {
 			var url = encodeURIComponent(window.location.href);
 			var hostname = window.location.host;
-			window.location.href = "http://" + hostname + "/user/login/?request=" + url;
+			window.location.href = "https://" + hostname + "/user/login/?request=" + url;
 		}
 		else {
 			var $iframe = $('.iframeFormbridge');

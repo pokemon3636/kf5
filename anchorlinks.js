@@ -24,7 +24,7 @@
         var $headers = $(":header");
         $headers.each(function (index, element) {
             var headerName = $(element).text().replace(/(^\s*)|(\s*$)/g, "");
-            if (anchorLinks[headerName]) {
+            if (anchorLinks.hasOwnProperty(headerName)) {
                 $(element).attr('id', anchorLinks[headerName]);
             }
         });
