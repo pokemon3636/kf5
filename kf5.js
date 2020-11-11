@@ -15,7 +15,7 @@ window.onload = function () {
 
 
 $(function () {
-	if ($('.iframeFormbridge').length === 1) {
+	if ($('.iframeFormbridge .needlogin').length === 1) {
 		$("#article-comments, .share-list, .next_prev_wrap, .next_prev_wrap").hide();
 	}
 });
