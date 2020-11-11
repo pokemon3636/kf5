@@ -1,6 +1,6 @@
 //因为为了获取user_id所以用windows.load
 window.onload = function () {
-	if ($('.iframeFormbridge').length === 1) {
+	if ($('.iframeFormbridge .needlogin').length === 1) {
 		if ($('.user-info-name [href]').length > 0) {
 			var url = encodeURIComponent(window.location.href);
 			var hostname = window.location.host;
